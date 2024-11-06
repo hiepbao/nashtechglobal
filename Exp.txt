@@ -1,0 +1,16 @@
+// Tạo
+npm init -y
+// chạy
+node index.js
+// thư viện
+npm install express mysql2 body-parser dotenv ejs cors
+// tạo db
+CREATE TABLE get_in_touch_your_name (
+  id INT AUTO_INCREMENT PRIMARY KEY,
+  name VARCHAR(255) NOT NULL,
+  email VARCHAR(255) NOT NULL,
+  country VARCHAR(100),
+  company_name VARCHAR(255),
+  message TEXT,
+  created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);

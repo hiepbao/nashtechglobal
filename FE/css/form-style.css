@@ -44,6 +44,7 @@
   display: block;
   margin-top: 5px;
 }
+
 .uacf7-wrapper-default .wpcf7-acceptance label span {
   display: inline-block;
   margin-top: 5px;
@@ -128,6 +129,7 @@ textarea:focus-visible {
 .uacf7-wrapper-default .uacf7-radio span input {
   margin-right: 10px;
 }
+
 .uacf7-wrapper-default .uacf7-rating label span {
   display: inline-block;
 }
@@ -187,30 +189,30 @@ textarea:focus-visible {
   width: 100%;
 }
 
-.uacf7-wrapper-default .uacf7-submint.full-width > span {
+.uacf7-wrapper-default .uacf7-submint.full-width>span {
   position: absolute;
   left: 50%;
   margin-left: -12px;
 }
 
-.uacf7-wrapper-default .uacf7-submint.fill.full-width > span.wpcf7-spinner {
+.uacf7-wrapper-default .uacf7-submint.fill.full-width>span.wpcf7-spinner {
   background-color: var(--uacf7-white-color);
 }
 
-.uacf7-wrapper-default
-  .uacf7-submint.fill.full-width
-  > span.wpcf7-spinner::before {
+.uacf7-wrapper-default .uacf7-submint.fill.full-width>span.wpcf7-spinner::before {
   background-color: var(--uacf7-global-color-primary);
 }
 
 .uacf7-wrapper-default .uacf7-charity-dinner {
   padding: 0 15px;
 }
+
 .uacf7-wrapper-default .uacf7-charity-dinner .wpcf7-submit {
   background: #115e99 !important;
   color: #ffffff !important;
   border-color: #115e99 !important;
 }
+
 .uacf7-wrapper-default .uacf7-order-bump-form .wpcf7-submit {
   background-color: #e6a23c !important;
   border-radius: 6px;
@@ -218,6 +220,7 @@ textarea:focus-visible {
   line-height: 1.5;
   padding: 8px 16px;
 }
+
 .uacf7-wrapper-default .uacf7-order-bump-form .wpcf7-submit:hover {
   background-color: #ebb563 !important;
 }

@@ -19,31 +19,31 @@ h6 {
 }
 
 @media (min-width: 1128px) {
-  section:not(.elementor-inner-section).rightFullWidth > .elementor-container {
+  section:not(.elementor-inner-section).rightFullWidth>.elementor-container {
     margin-right: 0;
     width: calc(1128px + (100vw - 1128px) / 2);
     max-width: 100vw !important;
   }
 
-  section:not(.elementor-inner-section).leftFullWidth > .elementor-container {
+  section:not(.elementor-inner-section).leftFullWidth>.elementor-container {
     margin-left: 0;
     width: calc(1128px + (100vw - 1128px) / 2);
     max-width: 100vw !important;
   }
 
-  section:not(.elementor-inner-section).rightFullWidth > .rightCol {
+  section:not(.elementor-inner-section).rightFullWidth>.rightCol {
     width: 100% !important;
   }
 
-  section:not(.elementor-inner-section).rightFullWidth > .leftCol {
+  section:not(.elementor-inner-section).rightFullWidth>.leftCol {
     min-width: calc(1140px / 2) !important;
   }
 
-  section:not(.elementor-inner-section).leftFullWidth > .leftCol {
+  section:not(.elementor-inner-section).leftFullWidth>.leftCol {
     width: 100% !important;
   }
 
-  section:not(.elementor-inner-section).leftFullWidth > .rightCol {
+  section:not(.elementor-inner-section).leftFullWidth>.rightCol {
     min-width: calc(1140px / 2) !important;
   }
 }
@@ -86,11 +86,9 @@ h6 {
 .planeRBCTA a:hover span.elementor-button-text,
 .gradHover a:hover span.elementor-button-text,
 .lineCTA.gradHover a:hover span.elementor-button-text {
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -258,9 +256,11 @@ h6 {
 .gradientSelection::selection {
   -webkit-text-fill-color: #ae0c3f !important;
 }
+
 .footerCTAlinks span::selection {
   -webkit-text-fill-color: #28292b !important;
 }
+
 .footerCTAlinks.active span::selection,
 .footerCTAlinks:hover span::selection,
 .footerCTAlinks:focus span {
@@ -276,6 +276,7 @@ h6 {
 .hoverGradient a:hover::selection {
   -webkit-text-fill-color: #ae0c3f !important;
 }
+
 .elementor-widget-container p a:not(.elementor-button-link) {
   color: #6a1f7a !important;
   position: relative;
@@ -293,10 +294,8 @@ h6 {
 }
 
 .elementor-widget-container p a:not(.elementor-button-link):hover {
-  background: var(
-    --Gradient-Light-BG,
-    linear-gradient(270deg, #d6001c 13.02%, #6a1f7a 98.28%)
-  );
+  background: var(--Gradient-Light-BG,
+      linear-gradient(270deg, #d6001c 13.02%, #6a1f7a 98.28%));
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -342,11 +341,9 @@ html.popup-active {
 }
 
 .solidRedCTA a {
-  background: linear-gradient(
-    270deg,
-    RGB(214, 0, 28) 13.02%,
-    RGB(214, 0, 28) 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      RGB(214, 0, 28) 13.02%,
+      RGB(214, 0, 28) 98.28%) !important;
   transition: 0.3s;
 }
 
@@ -378,11 +375,9 @@ html.popup-active {
 }
 
 .dark .solidRedCTA a {
-  background: linear-gradient(
-    270deg,
-    RGB(214, 0, 28) 13.02%,
-    RGB(214, 0, 28) 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      RGB(214, 0, 28) 13.02%,
+      RGB(214, 0, 28) 98.28%) !important;
 }
 
 .dark .solidRedCTA a:hover {
@@ -413,11 +408,9 @@ html.popup-active {
 }
 
 .megaMenuLink h6 a:active {
-  background: linear-gradient(
-    270deg,
-    rgba(214, 0, 28, 1),
-    rgba(214, 0, 28, 1)
-  ) !important;
+  background: linear-gradient(270deg,
+      rgba(214, 0, 28, 1),
+      rgba(214, 0, 28, 1)) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -426,11 +419,9 @@ html.popup-active {
 
 .megaMenuLink:active:after {
   width: 100%;
-  background: linear-gradient(
-    270deg,
-    rgba(214, 0, 28, 1),
-    rgba(214, 0, 28, 1)
-  ) !important;
+  background: linear-gradient(270deg,
+      rgba(214, 0, 28, 1),
+      rgba(214, 0, 28, 1)) !important;
 }
 
 .megaMenuLink.disabled {
@@ -454,8 +445,7 @@ html.popup-active {
 }
 
 .megaMenuLink.disabled h6:before {
-  filter: invert(54%) sepia(98%) saturate(0%) hue-rotate(319deg) brightness(87%)
-    contrast(95%) !important;
+  filter: invert(54%) sepia(98%) saturate(0%) hue-rotate(319deg) brightness(87%) contrast(95%) !important;
   opacity: 1;
   right: 10px;
 }
@@ -475,19 +465,15 @@ html.popup-active {
 }
 
 .dark .megaMenuLink:hover:after {
-  background: linear-gradient(
-    270deg,
-    #de3349 13.02%,
-    #884c95 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #de3349 13.02%,
+      #884c95 98.28%) !important;
 }
 
 .dark .megaMenuLink:hover h6 {
-  background: linear-gradient(
-    270deg,
-    #de3349 13.02%,
-    #884c95 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #de3349 13.02%,
+      #884c95 98.28%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -495,11 +481,9 @@ html.popup-active {
 }
 
 .dark .megaMenuLink h6 a:active {
-  background: linear-gradient(
-    270deg,
-    rgba(214, 0, 28, 1),
-    rgba(214, 0, 28, 1)
-  ) !important;
+  background: linear-gradient(270deg,
+      rgba(214, 0, 28, 1),
+      rgba(214, 0, 28, 1)) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -508,11 +492,9 @@ html.popup-active {
 
 .dark .megaMenuLink:active:after {
   width: 100%;
-  background: linear-gradient(
-    270deg,
-    rgba(214, 0, 28, 1),
-    rgba(214, 0, 28, 1)
-  ) !important;
+  background: linear-gradient(270deg,
+      rgba(214, 0, 28, 1),
+      rgba(214, 0, 28, 1)) !important;
 }
 
 .dark .megaMenuLink.disabled {
@@ -546,8 +528,7 @@ html.popup-active {
 }
 
 .dark .megaMenuLink.disabled h6:before {
-  filter: invert(54%) sepia(98%) saturate(0%) hue-rotate(319deg) brightness(87%)
-    contrast(95%) !important;
+  filter: invert(54%) sepia(98%) saturate(0%) hue-rotate(319deg) brightness(87%) contrast(95%) !important;
   opacity: 1;
   right: 10px;
 }
@@ -564,32 +545,26 @@ html.popup-active {
 .planeWBCTA.gradHover a:hover {
   border: 1px solid !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
 }
 
 .planeWBCTA.gradHover a:active {
   border: 1px solid !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    180deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(180deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
   background: #ffffff !important;
   outline: none !important;
 }
 
 .planeWBCTA.gradHover a:active span.elementor-button-text {
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   -webkit-text-fill-color: transparent !important;
   text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
@@ -620,22 +595,18 @@ html.popup-active {
 .planeWBCTA.gradHover a:active {
   border: 1px solid !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    180deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(180deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
   background: #ffffff !important;
   outline: none !important;
 }
 
 .planeWBCTA.gradHover a:active span.elementor-button-text {
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   -webkit-text-fill-color: transparent !important;
   text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
@@ -683,22 +654,18 @@ div.ast-scroll-top-icon {
 }
 
 div.ast-scroll-top-icon:hover {
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 #884c95 !important;
 }
 
 div.ast-scroll-top-icon:active {
   box-shadow: inset 3px 3px 0 0 rgba(15, 15, 26, 0.4) !important;
   border: none !important;
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
 }
 
 div.ast-scroll-top-icon.disabled {
@@ -721,22 +688,18 @@ div.ast-scroll-top-icon.disabled span {
 }
 
 .dark div.ast-scroll-top-icon:hover {
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(136, 76, 149, 1) !important;
 }
 
 .dark div.ast-scroll-top-icon:active {
   box-shadow: 3px 3px 0 0 rgba(15, 15, 26, 0.4) inset !important;
   border: none !important;
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
 }
 
 .dark div.ast-scroll-top-icon.disabled {
@@ -780,11 +743,9 @@ div.ast-scroll-top-icon.disabled span {
 
 .bottomBorderGCta a:active,
 .bottomBorderGCta a:active::before {
-  background: linear-gradient(
-    270deg,
-    rgba(214, 0, 28, 1),
-    rgba(214, 0, 28, 1)
-  ) !important;
+  background: linear-gradient(270deg,
+      rgba(214, 0, 28, 1),
+      rgba(214, 0, 28, 1)) !important;
 }
 
 .bottomBorderGCta a:active {
@@ -836,19 +797,15 @@ div.ast-scroll-top-icon.disabled span {
 }
 
 .dark .bottomBorderGCta a:hover:before {
-  background: linear-gradient(
-    270deg,
-    #de3349 13.02%,
-    #884c95 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #de3349 13.02%,
+      #884c95 98.28%) !important;
 }
 
 .dark .bottomBorderGCta a:hover {
-  background: linear-gradient(
-    270deg,
-    #de3349 13.02%,
-    #884c95 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #de3349 13.02%,
+      #884c95 98.28%) !important;
   -webkit-text-fill-color: transparent !important;
   text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
@@ -861,11 +818,9 @@ div.ast-scroll-top-icon.disabled span {
 
 .dark .bottomBorderGCta a:active,
 .dark .bottomBorderGCta a:active::before {
-  background: linear-gradient(
-    270deg,
-    rgba(214, 0, 28, 1),
-    rgba(214, 0, 28, 1)
-  ) !important;
+  background: linear-gradient(270deg,
+      rgba(214, 0, 28, 1),
+      rgba(214, 0, 28, 1)) !important;
 }
 
 .dark .bottomBorderGCta a:active {
@@ -996,33 +951,13 @@ div.ast-scroll-top-icon.disabled span {
 .dark .bottomBorderGCta.disabled a span.elementor-align-icon-left svg,
 .dark .bottomBorderGCta.disabled a span.elementor-align-icon-left svg path,
 .dark .bottomBorderGCta.disabled a:hover span.elementor-align-icon-right svg,
-.dark
-  .bottomBorderGCta.disabled
-  a:hover
-  span.elementor-align-icon-right
-  svg
-  path,
+.dark .bottomBorderGCta.disabled a:hover span.elementor-align-icon-right svg path,
 .dark .bottomBorderGCta.disabled a:hover span.elementor-align-icon-left svg,
-.dark
-  .bottomBorderGCta.disabled
-  a:hover
-  span.elementor-align-icon-left
-  svg
-  path,
+.dark .bottomBorderGCta.disabled a:hover span.elementor-align-icon-left svg path,
 .dark .bottomBorderGCta.diabled a:active span.elementor-align-icon-right svg,
-.dark
-  .bottomBorderGCta.diabled
-  a:active
-  span.elementor-align-icon-right
-  svg
-  path,
+.dark .bottomBorderGCta.diabled a:active span.elementor-align-icon-right svg path,
 .dark .bottomBorderGCta.diabled a:active span.elementor-align-icon-left svg,
-.dark
-  .bottomBorderGCta.diabled
-  a:active
-  span.elementor-align-icon-left
-  svg
-  path,
+.dark .bottomBorderGCta.diabled a:active span.elementor-align-icon-left svg path,
 .dark .bottomBorderGCta.disabled.icon-align-right a svg,
 .dark .bottomBorderGCta.disabled.icon-align-right a svg path,
 .dark .bottomBorderGCta.disabled.icon-align-left a svg,
@@ -1048,17 +983,13 @@ div#loadMore a:hover span,
 div#loadMore a:active span {
   border: 1px solid;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 1) !important;
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -1092,11 +1023,9 @@ div#loadMore.disabled a:active span {
 .customPostSlideGrid a.postReadmore:hover {
   border: 1px solid !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 1) !important;
 }
 
@@ -1107,11 +1036,9 @@ div#loadMore.disabled a:active span {
 .customPostSlideGrid a.postReadmore:active {
   border: 1px solid !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
   outline: none !important;
 }
@@ -1180,7 +1107,7 @@ div#loadMore.disabled a:active span {
   right: 0;
 }
 
-.textButton a .elementor-align-icon-right + .elementor-button-text {
+.textButton a .elementor-align-icon-right+.elementor-button-text {
   margin-right: 30px;
 }
 
@@ -1208,11 +1135,9 @@ div#loadMore.disabled a:active span {
 
 .textButton a:active .elementor-button-text {
   box-shadow: none !important;
-  background: linear-gradient(
-    270deg,
-    rgba(214, 0, 28, 1),
-    rgba(214, 0, 28, 1)
-  ) !important;
+  background: linear-gradient(270deg,
+      rgba(214, 0, 28, 1),
+      rgba(214, 0, 28, 1)) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent !important;
   background-clip: text !important;
@@ -1229,43 +1154,30 @@ div#loadMore.disabled a:active span {
 
 .ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control {
   border: none !important;
-  background: linear-gradient(
-    270deg,
-    RGB(214, 0, 28) 13.02%,
-    RGB(214, 0, 28) 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      RGB(214, 0, 28) 13.02%,
+      RGB(214, 0, 28) 98.28%) !important;
   border-radius: 0px !important;
 }
 
-.ctaWrap
-  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
-    [disabled]
-  ):hover {
+.ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not([disabled]):hover {
   box-shadow: 3px 3px 0 0 rgba(106, 31, 122, 1) !important;
-  background: linear-gradient(
-    270deg,
-    #c4001a 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #c4001a 13.02%,
+      #6a1f7a 98.28%) !important;
   -webkit-text-fill-color: white !important;
   text-fill-color: white !important;
   color: white !important;
   border-radius: 0px !important;
 }
 
-.ctaWrap
-  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
-    [disabled]
-  ):active {
+.ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not([disabled]):active {
   box-shadow: inset 3px 3px 0 0 rgba(15, 15, 26, 0.4) !important;
   background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
   border-radius: 0px !important;
 }
 
-.ctaWrap
-  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
-    [disabled]
-  ):hover:active {
+.ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not([disabled]):hover:active {
   box-shadow: inset 3px 3px 0 0 rgba(15, 15, 26, 0.4) !important;
   background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
 }
@@ -1274,8 +1186,7 @@ div#loadMore.disabled a:active span {
   display: block !important;
 }
 
-.ctaWrap
-  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled]:hover {
+.ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled]:hover {
   webkit-text-fill-color: rgba(159, 163, 170, 1) !important;
   text-fill-color: rgba(159, 163, 170, 1) !important;
   cursor: not-allowed !important;
@@ -1291,71 +1202,47 @@ div#loadMore.disabled a:active span {
 
 .dark .ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control {
   border: none !important;
-  background: linear-gradient(
-    270deg,
-    RGB(214, 0, 28) 13.02%,
-    RGB(214, 0, 28) 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      RGB(214, 0, 28) 13.02%,
+      RGB(214, 0, 28) 98.28%) !important;
   border-radius: 0px !important;
 }
 
-.dark
-  .ctaWrap
-  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
-    [disabled]
-  ):hover {
+.dark .ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not([disabled]):hover {
   box-shadow: 3px 3px 0 0 rgba(136, 76, 149, 1) !important;
-  background: linear-gradient(
-    270deg,
-    #c4001a 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #c4001a 13.02%,
+      #6a1f7a 98.28%) !important;
   -webkit-text-fill-color: white !important;
   text-fill-color: white !important;
   color: white !important;
   border-radius: 0px !important;
 }
 
-.dark
-  .ctaWrap
-  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
-    [disabled]
-  ):active {
+.dark .ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not([disabled]):active {
   box-shadow: 3px 3px 0 0 rgba(15, 15, 26, 0.4) inset !important;
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   border-radius: 0px !important;
 }
 
-.dark
-  .ctaWrap
-  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not(
-    [disabled]
-  ):hover:active {
+.dark .ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control:not([disabled]):hover:active {
   box-shadow: inset 3px 3px 0 0 rgba(15, 15, 26, 0.4) !important;
   background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
 }
 
-.dark
-  .ctaWrap
-  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled] {
+.dark .ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled] {
   display: block !important;
 }
 
-.dark
-  .ctaWrap
-  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled]:hover {
+.dark .ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled]:hover {
   webkit-text-fill-color: rgba(159, 163, 170, 1) !important;
   text-fill-color: rgba(159, 163, 170, 1) !important;
   cursor: not-allowed !important;
 }
 
-.dark
-  .ctaWrap
-  .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled] {
+.dark .ctaWrap .wpcf7-form-control.wpcf7-submit.has-spinner.form-control[disabled] {
   background: rgba(99, 102, 107, 1) !important;
   color: rgba(159, 163, 170, 1) !important;
   transform: none !important;
@@ -1368,11 +1255,9 @@ div#loadMore.disabled a:active span {
 }
 
 .dark .bottomBorderWCta:not(.disabled) a:hover span.elementor-button-text {
-  background: linear-gradient(
-    270deg,
-    #de3349 13.02%,
-    #884c95 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #de3349 13.02%,
+      #884c95 98.28%) !important;
   -webkit-background-clip: text !important;
 }
 
@@ -1380,39 +1265,19 @@ div#loadMore.disabled a:active span {
   background: linear-gradient(270deg, #de3349 13.02%, #884c95 98.28%);
 }
 
-.dark
-  .bottomBorderWCta:not(.disabled):hover
-  a
-  .elementor-align-icon-left
-  svg
-  path {
+.dark .bottomBorderWCta:not(.disabled):hover a .elementor-align-icon-left svg path {
   fill: rgba(136, 76, 149, 1) !important;
 }
 
-.dark
-  .bottomBorderWCta:not(.disabled):hover
-  a
-  .elementor-align-icon-right
-  svg
-  path {
+.dark .bottomBorderWCta:not(.disabled):hover a .elementor-align-icon-right svg path {
   fill: rgba(214, 0, 28, 1) !important;
 }
 
-.dark
-  .bottomBorderWCta:not(.disabled):hover
-  a.elementor-button-link
-  .elementor-align-icon-right
-  svg
-  path {
+.dark .bottomBorderWCta:not(.disabled):hover a.elementor-button-link .elementor-align-icon-right svg path {
   fill: #de3349 !important;
 }
 
-.dark
-  .bottomBorderWCta:not(.disabled):hover
-  a.elementor-button-link
-  .elementor-align-icon-left
-  svg
-  path {
+.dark .bottomBorderWCta:not(.disabled):hover a.elementor-button-link .elementor-align-icon-left svg path {
   fill: #884c95 !important;
 }
 
@@ -1425,11 +1290,9 @@ div#loadMore.disabled a:active span {
 }
 
 .dark .bottomBorderWCta:not(.disabled) a:active span.elementor-button-text {
-  background: linear-gradient(
-    270deg,
-    rgba(214, 0, 28, 1),
-    rgba(214, 0, 28, 1)
-  ) !important;
+  background: linear-gradient(270deg,
+      rgba(214, 0, 28, 1),
+      rgba(214, 0, 28, 1)) !important;
   -webkit-background-clip: text !important;
 }
 
@@ -1442,10 +1305,8 @@ div#loadMore.disabled a:active span {
 }
 
 .dark .bottomBorderWCta.disabled:hover a {
-  background: linear-gradient(
-    rgba(99, 102, 107, 1),
-    rgba(99, 102, 107, 1)
-  ) !important;
+  background: linear-gradient(rgba(99, 102, 107, 1),
+      rgba(99, 102, 107, 1)) !important;
   -webkit-background-clip: text !important;
 }
 
@@ -1478,11 +1339,9 @@ div#loadMore.disabled a:active span {
 .planeRBCTA a:hover {
   border: 1px solid !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 1) !important;
 }
 
@@ -1497,32 +1356,20 @@ div#loadMore.disabled a:active span {
 .planeRBCTA a:active {
   border: 1px solid !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
   outline: none !important;
 }
 
-.post.category-case-studies
-  .excerptWrap
-  .lineCTA
-  a:hover
-  span.elementor-button-text,
-.post.category-case-studies
-  .excerptWrap
-  .lineCTA
-  a:active
-  span.elementor-button-text,
+.post.category-case-studies .excerptWrap .lineCTA a:hover span.elementor-button-text,
+.post.category-case-studies .excerptWrap .lineCTA a:active span.elementor-button-text,
 .planeRBCTA.gradHover a:active span.elementor-button-text,
 .planeRBCTA a:active span.elementor-button-text {
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   -webkit-text-fill-color: transparent !important;
   text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
@@ -1546,17 +1393,8 @@ div#loadMore.disabled a:active span {
   border: 1px solid rgba(226, 229, 231, 1) !important;
 }
 
-.post.category-case-studies
-  .excerptWrap
-  .lineCTA.disabled
-  span.elementor-button-icon
-  svg,
-.post.category-case-studies
-  .excerptWrap
-  .lineCTA.disabled
-  span.elementor-button-icon
-  svg
-  path,
+.post.category-case-studies .excerptWrap .lineCTA.disabled span.elementor-button-icon svg,
+.post.category-case-studies .excerptWrap .lineCTA.disabled span.elementor-button-icon svg path,
 .planeRBCTA.gradHover.disabled span.elementor-button-icon svg,
 .planeRBCTA.disabled span.elementor-button-icon svg,
 .planeRBCTA.gradHover.disabled span.elementor-button-icon svg path,
@@ -1564,10 +1402,7 @@ div#loadMore.disabled a:active span {
   fill: rgba(159, 163, 170, 1) !important;
 }
 
-.post.category-case-studies
-  .excerptWrap
-  .lineCTA.disabled
-  span.elementor-button-text,
+.post.category-case-studies .excerptWrap .lineCTA.disabled span.elementor-button-text,
 .planeRBCTA.gradHover.disabled a span.elementor-button-text,
 .planeRBCTA.disabled a span.elementor-button-text {
   background: none !important;
@@ -1595,11 +1430,9 @@ div#loadMore.disabled a:active span {
 .dark .planeRBCTA a:hover {
   border: 1px solid !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 1) !important;
 }
 
@@ -1614,28 +1447,19 @@ div#loadMore.disabled a:active span {
 .dark .planeRBCTA a:active {
   border: 1px solid !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
   outline: none !important;
 }
 
-.dark
-  .post.category-case-studies
-  .excerptWrap
-  .lineCTA
-  a:active
-  span.elementor-button-text,
+.dark .post.category-case-studies .excerptWrap .lineCTA a:active span.elementor-button-text,
 .dark .planeRBCTA.gradHover a:active span.elementor-button-text,
 .dark .planeRBCTA a:active span.elementor-button-text {
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   -webkit-text-fill-color: transparent !important;
   text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
@@ -1648,12 +1472,7 @@ div#loadMore.disabled a:active span {
   display: block !important;
 }
 
-.dark
-  .post.category-case-studies
-  .excerptWrap
-  .lineCTA.disabled
-  a
-  span.elementor-button-text,
+.dark .post.category-case-studies .excerptWrap .lineCTA.disabled a span.elementor-button-text,
 .dark .planeRBCTA.gradHover.disabled a span.elementor-button-text,
 .dark .planeRBCTA.disabled a span.elementor-button-text {
   background: none !important;
@@ -1769,13 +1588,7 @@ div#loadMore.disabled a:active span {
 }
 
 .dark .post.category-case-studies .excerptWrap .lineCTA.disabled a:hover svg,
-.dark
-  .post.category-case-studies
-  .excerptWrap
-  .lineCTA.disabled
-  a:hover
-  svg
-  path,
+.dark .post.category-case-studies .excerptWrap .lineCTA.disabled a:hover svg path,
 .dark .planeRBCTA a:hover span.elementor-align-icon-left svg,
 .dark .planeRBCTA a:hover span.elementor-align-icon-left svg path,
 .dark .planeRBCTA.icon-align-left a:hover svg,
@@ -1846,45 +1659,29 @@ div#loadMore.disabled a:active span {
 .lineCTA.gradHover a:active {
   border: 1px solid !important;
   border-image-slice: 1 !important;
-  border-image-source: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  border-image-source: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   box-shadow: 3px 3px 0 0 rgba(214, 0, 28, 0.4) inset !important;
   outline: none !important;
 }
 
 .lineCTA.gradHover a:active span.elementor-button-text {
-  background: linear-gradient(
-    270deg,
-    #d6001c 13.02%,
-    #6a1f7a 98.28%
-  ) !important;
+  background: linear-gradient(270deg,
+      #d6001c 13.02%,
+      #6a1f7a 98.28%) !important;
   -webkit-text-fill-color: transparent !important;
   text-fill-color: transparent !important;
   -webkit-background-clip: text !important;
   background-clip: text !important;
 }
 
-.footerMain.dark
-  .footerMenu
-  .elementor-icon-list-item:hover
-  .elementor-icon-list-icon
-  svg,
-.footerMain.dark
-  .footerMenu
-  .elementor-icon-list-item:hover
-  .elementor-icon-list-icon
-  svg
-  path {
+.footerMain.dark .footerMenu .elementor-icon-list-item:hover .elementor-icon-list-icon svg,
+.footerMain.dark .footerMenu .elementor-icon-list-item:hover .elementor-icon-list-icon svg path {
   fill: #d9d9d9 !important;
 }
 
-.footerMain.dark
-  .footerMenu
-  .elementor-icon-list-item:hover
-  .elementor-icon-list-text {
+.footerMain.dark .footerMenu .elementor-icon-list-item:hover .elementor-icon-list-text {
   color: #d9d9d9 !important;
 }
 
@@ -2082,6 +1879,6 @@ form.wpcf7-form.submitting .recaptchaDisclaimer:before {
   }
 }
 
-.single.ast-page-builder-template .entry-header + .entry-content {
+.single.ast-page-builder-template .entry-header+.entry-content {
   margin-bottom: -1px;
 }

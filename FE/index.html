@@ -3499,12 +3499,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
   
   
-  <script>
-    var post_grid_vars = {"siteUrl":"https:\/\/www.nashtechglobal.com"}  </script>
-  <style>
-      </style>
+<script>
+    var post_grid_vars = {"siteUrl":"https:\/\/www.nashtechglobal.com"}  
+</script>
+<style>
+</style>
 
-	  <script>
+<script>
   async function submitForm() {
     const form = document.getElementById('contactForm');
     const formData = new FormData(form);
@@ -3516,7 +3517,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     });
 
     try {
-      const response = await fetch('http://localhost:3000/contact', {
+      const response = await fetch('https://tbh-peaf.onrender.com/contact', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

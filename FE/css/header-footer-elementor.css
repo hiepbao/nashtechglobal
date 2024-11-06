@@ -19,7 +19,8 @@
     width: 100%;
     padding: 0;
     max-width: 100%;
-    background-color: transparent !important; /* override generatepress default white color for header */
+    background-color: transparent !important;
+    /* override generatepress default white color for header */
 }
 
 .bhf-hidden {
@@ -28,6 +29,6 @@
 
 /* Fix: Header hidden below the page content */
 .ehf-header #masthead {
-	z-index: 99;
+    z-index: 99;
     position: relative;
 }

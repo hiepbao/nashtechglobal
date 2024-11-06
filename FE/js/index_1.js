@@ -265,7 +265,7 @@
             });
       });
     };
-  
+
   r.use((e, t) => {
     if (e.wpcf7 && "feedback" === e.wpcf7.endpoint) {
       const { form: t, detail: r } = e.wpcf7;

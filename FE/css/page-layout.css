@@ -2,9 +2,11 @@
 #login h1 a:focus {
   box-shadow: none;
 }
+
 .ImgCard .elementor-image-box-content {
   padding: 0 16px;
 }
+
 .purplebadge .elementor-heading-title {
   background: #e1d2e4 !important;
   color: #6a1f7a !important;
@@ -17,14 +19,17 @@
 .excerptWrap .elementor-container {
   border: 1px solid #d9d9d9;
 }
+
 .taxnomyDisplay {
   font-size: 16px;
   font-weight: 700;
   line-height: 28px;
 }
+
 .taxnomyDisplay .st-tag-cloud {
   margin-top: 16px;
 }
+
 .taxnomyDisplay .st-tag-cloud a,
 .termDisplayDiv a {
   font-style: normal;
@@ -41,11 +46,13 @@
   margin: 0 5px 8px 0;
   text-decoration: none !important;
 }
+
 .excerptCol:before {
   content: "";
   background: #d9d9d9;
   position: absolute;
 }
+
 @media (min-width: 768px) {
   .excerptCol:before {
     width: 1px;
@@ -54,6 +61,7 @@
     transform: translateY(-50%);
   }
 }
+
 @media (max-width: 767px) {
   .excerptCol:before {
     width: 80%;
@@ -61,20 +69,24 @@
     left: 25px;
   }
 }
+
 .excerptCol .body2 p {
   font-size: 14px !important;
 }
+
 .caseStudyExLogo .elementor-widget-container {
   height: 70px;
   width: 100%;
   max-width: 250px;
 }
+
 .caseStudyExLogo .elementor-widget-container img {
   max-height: 100% !important;
   max-width: 100%;
   width: auto !important;
   height: auto !important;
 }
+
 /*Elementor Post Grid Style */
 .themePostGridCard .elementor-widget-wrap {
   padding: 0 0 20px !important;
@@ -84,24 +96,30 @@
   transition: 0.4s;
   overflow: hidden;
 }
+
 .themePostGridCard .elementor-widget-wrap:hover {
   transform: translateY(-4px);
   box-shadow: 0 2px 27px #00000029;
 }
+
 .themePostGridCard a {
   text-decoration: none !important;
 }
+
 .themePostGridCard .elementor-widget-heading {
   padding: 0 15px !important;
   margin-bottom: 10px !important;
 }
+
 .themePostGridCard .elementor-widget-theme-post-excerpt {
   padding: 0 15px !important;
   font-size: 14px;
 }
+
 .themePostGridCard .elementor-widget-post-info {
   padding: 0 15px !important;
 }
+
 .themePostGridCard .elementor-widget-theme-post-featured-image img {
   position: absolute;
   min-width: 100%;
@@ -117,6 +135,7 @@
   height: 228px;
   width: 100%;
 }
+
 a.insights,
 a.news,
 .elementor-post__badge.news,
@@ -137,9 +156,11 @@ a.news,
   background: #f7ccd2 !important;
   color: #bd0019 !important;
 }
+
 .elementor-posts article {
   border-radius: 4px;
 }
+
 .elementor-posts article .elementor-post__text {
   margin-top: 0 !important;
   padding: 0px 20px 40px !important;
@@ -169,6 +190,7 @@ a.news,
   border-radius: 10px 10px 0 0;
   margin-bottom: 20px;
 }
+
 .element.thumb_link img {
   position: absolute;
   display: block;
@@ -193,17 +215,20 @@ a.news,
   padding: 0 20px;
   font-size: 12px;
 }
+
 .element.categories a {
   border-radius: 4px;
   padding: 4px 14px 4px 14px;
   background: #e2e5e7;
   color: #2a2e3a;
 }
+
 .post-grid .item {
   padding: 15px !important;
   margin-bottom: 0;
   background: transparent !important;
 }
+
 .post-grid .item .layer-wrapper {
   padding: 0 0 20px !important;
   box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.2) !important;
@@ -212,31 +237,37 @@ a.news,
   margin-bottom: 0px;
   border-radius: 10px;
 }
+
 .post-grid .item:hover .layer-wrapper {
   transform: translateY(-2px);
   box-shadow: 0px 4px 15px -2px rgb(0 0 0 / 49%) !important;
 }
+
 .element.title a,
 .post-grid .grid-items a {
   text-decoration: none !important;
 }
+
 .post-grid .grid-items {
   display: flex !important;
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
 }
+
 @media only screen and (min-width: 1024px) {
   .grid-items .item {
     max-width: calc(33.33% - 10px);
     min-width: calc(33.33% - 10px);
   }
+
   .element.title,
   .element.title_link {
     max-height: 56px;
     overflow: hidden;
   }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .grid-items .item {
     max-width: calc(50% - 10px);
@@ -244,6 +275,7 @@ a.news,
     width: calc(50% - 10px);
     display: inline !important;
   }
+
   .element.title,
   .element.title_link {
     max-height: 56px;
@@ -257,10 +289,12 @@ a.news,
     min-width: 100%;
     margin-bottom: 0 !important;
   }
+
   .post-grid .item .layer-wrapper {
     margin-bottom: 0px !important;
   }
 }
+
 .paginate span.page-numbers.current,
 .paginate a.page-numbers:hover {
   color: #d6001c !important;
@@ -275,6 +309,7 @@ a.news,
   font-size: 16px !important;
   line-height: 24px !important;
 }
+
 /*
 .catBadge.categories a:first-child, .catBadge.categories a:last-child {
   display: none;
@@ -311,11 +346,13 @@ span.elementor-toggle-icon.elementor-toggle-icon-left {
   transform: translateY(-50%);
   height: 15px !important;
 }
+
 .elementor-toggle-icon [class*="elementor-toggle-icon-"] svg {
   position: relative;
   line-height: 0;
   top: 0px;
 }
+
 li.elementskit-megamenu-has.open .elementskit-submenu-indicator {
   transform: rotate(-180deg) !important;
   transform-origin: center;
@@ -324,10 +361,12 @@ li.elementskit-megamenu-has.open .elementskit-submenu-indicator {
 li.elementskit-megamenu-has .elementskit-submenu-indicator {
   padding: 0 10px !important;
 }
+
 /*Event landing page*/
 #eventLocation {
   pointer-events: none;
 }
+
 #eventDate .elementor-heading-title:after {
   content: ",";
 }
@@ -337,15 +376,18 @@ li.elementskit-megamenu-has .elementskit-submenu-indicator {
 .elementor-tabs-wrapper .elementor-tab-title.elementor-active {
   color: #d6001c !important;
 }
+
 .elementor-tabs-wrapper .elementor-tab-title.elementor-active:before {
   background: #d6001c !important;
 }
+
 .elementor-tabs-wrapper .elementor-tab-title:not(.elementor-active):hover {
   background: linear-gradient(270deg, #d6001c, #6a1f7a) !important;
   -webkit-background-clip: text !important;
   -webkit-text-fill-color: transparent;
 }
+
 /*Hide space in bottom of casestudy or any post with default page layout*/
-.single.ast-page-builder-template .entry-header + .entry-content {
-    margin-bottom: -1px !important;
+.single.ast-page-builder-template .entry-header+.entry-content {
+  margin-bottom: -1px !important;
 }

@@ -5,10 +5,14 @@ const bodyParser = require('body-parser');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
+const cors = require('cors');
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
+app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use(cors());
 
 const db = mysql.createConnection({
   host: process.env.DB_HOST,

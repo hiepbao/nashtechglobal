@@ -2,10 +2,11 @@
 npm init -y
 // chạy
 node index.js
+npm start
 // thư viện
 npm install express mysql2 body-parser dotenv ejs cors
 // tạo db
-CREATE TABLE get_in_touch_your_name (
+CREATE TABLE get_in_touch_Tong_Bao_Hiep (
   id INT AUTO_INCREMENT PRIMARY KEY,
   name VARCHAR(255) NOT NULL,
   email VARCHAR(255) NOT NULL,

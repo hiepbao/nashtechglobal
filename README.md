@@ -1,4 +1,12 @@
 Anh/chị test url thì nên đơi 1 lúc để sever khởi động tầm 20s là hoạt động ổn định bình thường
+
+BE 
+URL check data: https://tbh-peaf.onrender.com/home
+URL post data: https://tbh-peaf.onrender.com/contact
+
+FE
+URL Website: https://tbhnashtechglobal.onrender.com/
+
 Đã hoàn thành
 
 Tái tạo và chỉnh sửa hai trang web cụ thể từ trang NashTech Global:
